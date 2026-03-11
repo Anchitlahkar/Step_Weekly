@@ -1,18 +1,52 @@
-## Getting Started
+# Weekly Java Assignments
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This folder contains Java practice programs organized by difficulty level and by assignment set.
 
-## Folder Structure
+## Project Structure
 
-The workspace contains two folders by default, where:
+- `src/Level1`: Basic programs named `Q1.java` to `Q5.java`
+- `src/Level2`: Intermediate programs named `Q1.java` to `Q5.java`
+- `src/Level3`: Advanced programs named `Q1.java` to `Q5.java`
+- `src_03_04/Level_1`: Topic-based beginner programs
+- `src_03_04/Level_2`: Topic-based intermediate programs
+- `src_03_04/Level_3`: Topic-based advanced programs
+- `.vscode/`: Visual Studio Code workspace settings
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Topics Covered
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Examples in this repository include:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- arithmetic and percentage calculations
+- condition checking
+- loops and number series
+- factors and multiples
+- power calculations
+- BMI and calculator programs
+- number property checks such as Armstrong, Harshad, and Abundant numbers
 
-## Dependency Management
+## How to Run
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Compile a file:
+
+```powershell
+javac src\Level1\Q1.java
+```
+
+Run a compiled file:
+
+```powershell
+java -cp src\Level1 Q1
+```
+
+Example for the `src_03_04` set:
+
+```powershell
+javac src_03_04\Level_1\CheckNumber.java
+java -cp src_03_04\Level_1 CheckNumber
+```
+
+## Notes
+
+- Most programs are standalone and contain their own `main` method.
+- Some programs take input using `Scanner`, so run them in a terminal.
+- File names in `src` use question numbers, while `src_03_04` uses descriptive names.
