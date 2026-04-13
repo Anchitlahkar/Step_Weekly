@@ -1,0 +1,83 @@
+LEVEL 1
+1. Create a program to find the mean height of players present in a football team.
+Hint => 
+The formula to calculate the mean is: mean = sum of all elements / number of elements
+Create a double array named heights of size 11 and get input values from the user.
+Find the sum of all the elements present in the array.
+Divide the sum by 11 to find the mean height and print the mean height of the football team
+
+2. Create a program to save odd and even numbers into odd and even arrays between 1 to the number entered by the user. Finally, print the odd and even numbers array
+Hint => 
+Get an integer input from the user, assign it to a variable number, and check for Natural Number. If not a natural number then print an error and exit the program
+Create an integer array for even and odd numbers with size = number / 2 + 1
+Create index variables for odd and even numbers and initialize them to zero
+Using a for loop, iterate from 1 to the number, and in each iteration of the loop, save the odd or even number into the corresponding array
+Finally, print the odd and even numbers array using the odd and even index
+
+3. Create a program to find the factors of a number taken as user input, store the factors in an array, and display the factors
+Hint => 
+Take the input for a number
+Find the factors of the number and save them in an array. For this create integer variable maxFactor and initialize to 10, factors array of size maxFactor and index variable to reflect the index of the array. 
+To find factors loop through the numbers from 1 to the number, find the factors, and add them to the array element by incrementing the index. If the index is equal to maxIndex, then need factors array to store more elements
+To store more elements, reset the maxIndex to twice its size, use the temp array to store the elements from the factors array, and eventually assign the factors array to the temp array
+Finally, Display the factors of the number
+
+4. Working with Multi-Dimensional Arrays. Write a Java program to create a 2D Array and Copy the 2D Array into a single dimension array
+Hint => 
+Take user input for rows and columns, create a 2D array (Matrix), and take the user input 
+Copy the elements of the matrix to a 1D array. For this create a 1D array of size rows*columns as in int[] array = new int[rows * columns];
+Define the index variable and Loop through the 2D array. Copy every element of the 2D array into the 1D array and increment the index
+Note: For looping through the 2D array, you will need Nested for loop, Outer for loop for rows, and the inner for loops to access each element
+
+5. Write a program FizzBuzz, take a number as user input and if it is a positive integer loop from 0 to the number and save the number, but for multiples of 3 save "Fizz" instead of the number, for multiples of 5 save "Buzz", and for multiples of both save "FizzBuzz". Finally, print the array results for each index position in the format Position 1 = 1, …, Position 3 = Fizz,...
+Hint => 
+Create a String Array to save the results and 
+Finally, loop again to show the results of the array based on the index position
+
+
+
+LEVEL 2
+1. Create a program to find the bonus of 10 employees based on their years of service and the total bonus amount the company Zara has to pay, along with the old and new salary.
+Hint => 
+Zara decides to give a bonus of 5% to employees whose year of service is more than 5 years or 2% if less than 5 years
+Define a double array to save salary and years of service for each of the 10 employees
+Also define a double array to save the new salary and the bonus amount as well as variables to save the total bonus, total old salary, and new salary
+Define a loop to take input from the user. If salary or year of service is an invalid number then ask the use to enter again. Note in this case you will have to decrement the index counter
+Define another loop to calculate the bonus of 10 employees based on their years of service. Save the bonus in the array, compute the new salary, and save in the array. Also, the total bonus and total old and new salary can be calculated in the loop
+Print the total bonus payout as well as the total old and new salary of all the employees
+
+2.Create a program to find the youngest friends among 3 Amar, Akbar, and Anthony based on their ages and the tallest among the friends based on their heights
+Hint => 
+Take user input for age and height for the 3 friends and store it in two arrays each to store the values for age and height of the 3 friends
+Loop through the array and find the youngest of the 3 friends and the tallest of the 3 friends
+Finally display the youngest and tallest of the 3 friends
+
+3. Create a program to store the digits of the number in an array and find the largest and second largest element of the array.
+Hint => 
+Create a number variable and Take user input. 
+Define an array to store the digits. Set the size of the array to maxDigit variable initially set to 10
+Create an integer variable index with the value 0 to reflect the array index.
+Use a loop to iterate until the number is not equal to 0.
+Remove the last digit from the number in each iteration and add it to the array.
+Increment the index by 1 in each iteration and if the index count equals maxDigit then break out of the loop and the remaining digits are not added to the array
+Define variable to store largest and second largest digit and initialize it to zero
+Loop through the array and use conditional statements to find the largest and second largest number in the array
+Finally display the largest  and second-largest number
+
+4. Rework the program 2, especially the Hint f where if index equals maxDigit, we break from the loop. Here we want to modify to Increase the size of the array i,e maxDigit by 10 if the index is equal to maxDigit. This is done to consider all digits to find the largest and second-largest number 
+Hint => 
+In Hint f inside the loop if the index is equal to maxDigit, increase maxDigit and make digits array to store more elements. 
+To do this, we need to create a new temp array of size maxDigit, copy from the current digits array the digits into the temp array, and assign the current digits array to the temp array
+Now the digits array will be able to store all digits of the number in the array and then find the largest and second largest number
+
+
+LEVEL 3
+1. Create a program to take a number as input find the frequency of each digit in the number using an array and display the frequency of each digit
+Hint => 
+Take the input for a number
+Find the count of digits in the number
+Find the digits in the number and save them in an array
+Find the frequency of each digit in the number. For this define a frequency array of size 10, Loop through the digits array, and increase the frequency of each digit
+Display the frequency of each digit in the number
+
+
